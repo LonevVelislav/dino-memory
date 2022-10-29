@@ -1,0 +1,51 @@
+@media (max-width: 75em) {
+  html {
+    font-size: 50.5%;
+  }
+}
+@media (max-width: 59em) {
+  html {
+    font-size: 40%;
+  }
+  .logo {
+    width: 30rem;
+  }
+  .game-grid {
+    margin: 0 auto;
+    max-width: 80rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 53em), (max-height: 24em) {
+  html {
+    font-size: 30%;
+  }
+  .game-grid {
+    margin: 0 auto;
+    max-width: 60rem;
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+@media (max-width: 36em) {
+  html {
+    font-size: 25%;
+  }
+  .new-game-btn {
+    font-size: 1.2rem;
+  }
+  .new-game-btn ion-icon {
+    font-size: 2rem;
+  }
+  .game-grid {
+    margin: 0 auto;
+    max-width: 60rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .dino {
+    width: 21rem;
+  }
+  .card {
+    height: 21rem;
+    width: 21rem;
+  }
+}
